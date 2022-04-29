@@ -20,7 +20,7 @@ import './index.css';
 
 ReactDOM.render(
     <Router>
-        <Route path='' component={Kobalt} />
+        <Route path='' component={KobaltApp} />
     </Router>,
     document.getElementById('root')
 );
