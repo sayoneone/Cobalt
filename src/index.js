@@ -8,7 +8,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import TelegramApp from './TelegramApp';
+import Kobalt from './KobaltApp';
 import registerServiceWorker from './registerServiceWorker';
 import {
     OPTIMIZATIONS_FIRST_START,
@@ -20,7 +20,7 @@ import './index.css';
 
 ReactDOM.render(
     <Router>
-        <Route path='' component={TelegramApp} />
+        <Route path='' component={Kobalt} />
     </Router>,
     document.getElementById('root')
 );

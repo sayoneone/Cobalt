@@ -1,10 +1,3 @@
-/*
- *  Copyright (c) 2018-present, Evgeny Nadymov
- *
- * This source code is licensed under the GPL v.3.0 license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 export const ALBUM_MESSAGES_LIMIT = 10;
 export const ANIMATION_FRAME_DURATION_MS = 40;
 export const ANIMATION_DURATION_100MS = 100;
@@ -13,7 +6,7 @@ export const ANIMATION_DURATION_300MS = 300;
 export const ANIMATION_DURATION_500MS = 500;
 export const ANIMATION_PREVIEW_DISPLAY_SIZE = 480;
 export const AUDIO_MIN_BUFFERED_TIME_S = 30;
-export const APP_NAME = 'Telegram Web';
+export const APP_NAME = 'Kobalt web';
 export const CHAT_SLICE_LIMIT = 25;
 export const DATABASE_NAME = 'tdlib';
 export const DATABASE_TEST_NAME = 'tdlib_test';
